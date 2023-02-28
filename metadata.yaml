@@ -1,0 +1,18 @@
+composer:
+  last: Tůma
+  first: František Ignác Antonín
+title: Lamentationes Jeremiæ Prophetæ
+subtitle: Feria quinta in coena Domini
+genre: lamentation
+scoring: 2 S, A, T, B (coro)
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: D-Dl
+    shelfmark: Mus.2968-E-502
+    date: 1890–1910
+    rism: 1001001809
+    url: https://digital.slub-dresden.de/id480933553
+    license: public domain
+    principal: true
+imslp:
