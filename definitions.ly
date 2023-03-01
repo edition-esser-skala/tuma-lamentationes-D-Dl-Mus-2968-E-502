@@ -6,7 +6,7 @@
 \include "ees_articulate.ly"
 
 
-tempoI = \tempoMarkup "[Tempo deest]"
+tempoI = \tempoMarkup "[Allabreve]"
 
 
 \include "notes/S1.ly"

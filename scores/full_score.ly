@@ -6,9 +6,9 @@
 \book {
   \bookpart {
     \section "1" "Lectio prima"
-    % \addTocEntry
+    \addTocEntry
     \paper { indent = 3\cm }
-    \score { %\articulate
+    \score {
       <<
         \new ChoirStaff <<
           \new Staff {
@@ -35,10 +35,17 @@
           }
           \new Lyrics \lyricsto Tenore \ITenoreLyrics
         >>
+        \new StaffGroup <<
+          \new Staff {
+            \set Staff.instrumentName = \markup \center-column { "Organo" "e Bassi" }
+            % \transpose c c,
+            \IOrgano
+          }
+        >>
         \new FiguredBass { \IBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 2 = 80 }
     }
   }
 }
