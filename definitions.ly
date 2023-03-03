@@ -7,6 +7,7 @@
 
 
 tempoI = \tempoMarkup "[Allabreve]"
+tempoII = \tempoMarkup "[Allabreve]"
 
 
 \include "notes/S1.ly"

@@ -206,3 +206,310 @@ ISopranoILyrics = \lyricmode {
   um tu -- _ _ _
   _ um. %99 finis
 }
+
+IISoprano = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 2/1 \autoBeamOff \tempoII
+      \set Staff.timeSignatureFraction = 2/2
+    a'\breve
+    \once \tieDashed g~^\critnote
+    g
+    f~
+    f %5
+    \once \tieDashed g~
+    g
+    f~
+    f~
+    f %10
+    f
+    g1 a~
+    a2 a a1
+    a a~
+    a2 a a1 %15
+    b a
+    r a~
+    a g
+    fis g
+    e1. f2 %20
+    g1 a~
+    a2 g f1
+    e\breve
+    g1. g2
+    g1 a~ %25
+    a2 g g1
+    a f
+    f e
+    d f~
+    f2 f f1~ %30
+    f\breve
+    b1. a2
+    g1 f
+    g f
+    b1. a2 %35
+    g1 f
+    g g2 a~
+    a g f1~
+    f2 e4 d e2 e
+    f\breve %40
+    R\breve*3
+    a1. a2
+    a1 g %45
+    f1. f2
+    f f1 f2
+    f1 g
+    a b2. a4
+    g2 f g f~ %50
+    f e f1
+    r2 c1 c2
+    c1 d
+    e f
+    d g~ %55
+    g\breve
+    g\fermata
+    r1 c,
+    d f~
+    f2 e4 d e1 %60
+    f\breve~
+    f1 d
+    g\breve
+    c,
+    f1. e2 %65
+    d\breve
+    c
+    f
+    g1 b
+    a\breve %70
+    a
+    g1 f
+    e f
+    f2 f1 e2
+    d1 d %75
+    f!\breve
+    e1 f
+    g1. g2
+    g1 f
+    es\breve %80
+    d1 r
+    f!1. f2
+    f f g g
+    g1 g
+    a1. g2 %85
+    g b1 a2
+    b a f g
+    a1. g4 f
+    e2 f d1
+    e r2 g~ %90
+    g g g g
+    a\breve
+    R\breve*2
+    r1 a~ %95
+    a d,~
+    d2 d d1
+    f e2 e
+    f1 e
+    d f %100
+    f2 f f1
+    f2 b1 b2
+    a1. g2~
+    g f g a
+    g2. a4 b2 a~ %105
+    a g4 f g1
+    r2 g1 g2
+    f1 e~
+    e2 d e f
+    g\breve %110
+    e
+    R\breve*3
+    f\breve %115
+    g1 f2 f~
+    f d es1
+    d r2 f
+    f e! f1
+    c r %120
+    r2 f f e
+    f1 c
+    r2 f1 e2
+    d1 c
+    f2( g2. f4) f2~ %125
+    f e4( d) e1
+    f\breve~
+    f~
+    f\fermata
+    e %130
+    f1 g
+    a\breve
+    g
+    r1 f
+    e d %135
+    cis d
+    d e
+    f1. e4 d
+    e\breve
+    e %140
+    f1. f2
+    e1 g
+    a1. a2
+    g1 b
+    b1. a2^\critnote %145
+    a1 g~
+    g g
+    f\breve
+    f1 a
+    a1. g2 %150
+    g1 f2.( g4
+    a2) f g f~
+    f e4 d e1
+    f\breve\fermata \bar "|." %154 finis
+  }
+}
+
+IISopranoLyrics = \lyricmode {
+  \xE Vau. __
+  _
+
+  _
+  %5
+  _
+
+  _
+
+  \x Et %11
+  e -- gres --
+  sus est
+  a fi --
+  li -- a %15
+  Si -- on
+  o --
+  mnis
+  de -- cor
+  e -- _ %20
+  _ _
+  _ _
+  ius.
+  Fa -- cti
+  sunt prin -- %25
+  ci -- pes
+  e -- ius
+  ve -- lut
+  a -- ri --
+  e -- tes __ %30
+
+  non in --
+  ve -- ni --
+  en -- tes,
+  non in -- %35
+  ve -- ni --
+  en -- tes pa --
+  _ _
+  _ _ _ scu --
+  a. %40
+
+  Abs -- que %44
+  for -- ti -- %45
+  tu -- di --
+  ne an -- te
+  fa -- ci --
+  em sub -- se --
+  quen -- _ _ _ %50
+  _ tis,
+  an -- te
+  fa -- ci --
+  em sub --
+  se -- quen -- %55
+
+  tis.
+  \xE Zain. __
+  _ _
+  _ _ _ %60
+  _
+  _
+  _
+  _
+  _ _ %65
+  _
+  _
+  _
+  _ _
+  _ %70
+  \x Re --
+  cor -- da --
+  ta est
+  Ie -- ru -- sa --
+  lem di -- %75
+  e --
+  rum af --
+  fli -- cti --
+  o -- nis
+  su -- %80
+  ae
+  et prae --
+  va -- ri -- ca -- ti --
+  o -- nis,
+  o -- mni -- %85
+  um de -- si --
+  de -- ra -- bi -- li --
+  um __ _ _
+  _ su -- o --
+  rum, quae __ %90
+  ha -- bu -- e --
+  rat,
+
+  cum __ %95
+  ca --
+  de -- ret
+  po -- pu -- lus
+  e -- ius
+  in ma -- %100
+  nu ho -- sti --
+  li, et non
+  es -- set __
+  au -- xi -- li --
+  a -- _ _ _ %105
+  _ _ tor,
+  et non
+  es -- set __
+  au -- xi -- li --
+  a -- %110
+  tor.
+
+  Vi -- %115
+  de -- runt e --
+  am ho --
+  stes et
+  de -- ri -- se --
+  runt, %120
+  et de -- ri --
+  se -- runt,
+  de -- ri --
+  se -- runt
+  Sab -- ba -- %125
+  ta __ e --
+  ius. __
+
+  Ie -- %130
+  ru -- sa --
+  lem, __
+  _
+  Ie --
+  ru -- sa -- %135
+  lem, Ie --
+  ru -- sa --
+  lem, __ _ _
+  _
+  con -- %140
+  ver -- te --
+  re, con --
+  ver -- te --
+  re ad
+  Do -- mi -- %145
+  num De --
+  um
+  tu --
+  um, ad
+  Do -- mi -- %150
+  num De --
+  um tu -- _
+  _ _ _
+  um. %154 finis
+}

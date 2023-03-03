@@ -208,3 +208,326 @@ IBassFigures = \figuremode {
   <5 4>2 <6 3> <7 _+> <6 4>
   <5 \t> <\t _+> <_!>1 %99 finis
 }
+
+IIOrgano = {
+  \relative c {
+    \clef bass
+    \key f \major \time 2/1 \tempoII
+    f\breve
+    c
+    g'
+    d1. e!2
+    f\breve %5
+    c
+    g'1. es2
+    f\breve
+    b,
+    f' %10
+    \clef treble f'1 \clef "treble_8" b,~
+    b c
+    d1. d2
+    \clef bass d,1 a'~
+    a2 d, d1 %15
+    g f
+    r f~
+    f g
+    d g
+    c,1. d2 %20
+    e1 f
+    d\breve
+    c
+    c1 g'
+    c, \clef "treble_8" f~ %25
+    f2 c' c1
+    f, b
+    \clef bass f c
+    g' f~
+    f2 b,! b1 %30
+    b'1. a2
+    g1 f
+    g d
+    r2 b'1 a2
+    g1 f %35
+    g d
+    g c,
+    d1. d2
+    c\breve
+    f %40
+    f
+    e1 f
+    d c
+    f1. f2
+    f1 c %45
+    d1. b2
+    f'\breve
+    \clef "treble_8" b1 g
+    f g4 a \clef bass b,2~
+    b b b1 %50
+    c d
+    f1. e2
+    f2. e4 d1
+    c f
+    b, c %55
+    g'\breve
+    c,\fermata
+    \clef treble << {
+      r1 c'
+      d f
+    } \\ {
+      c\breve
+      b1. a2
+    } >>
+    \clef bass c,\breve %60
+    f1. e2
+    d\breve
+    c
+    f
+    \clef "treble_8" b1 \clef bass f %65
+    g b~
+    b a
+    b1. a2
+    g\breve
+    f %70
+    f
+    e1 d
+    c b
+    a2 b1 c2
+    d1 g %75
+    f!\breve
+    c1 f
+    es1. c2
+    es1 b
+    c\breve %80
+    d1 r
+    d1. d2
+    d d g g
+    c,1 c
+    \clef "treble_8" f1. c'2 %85
+    c g1 f2
+    g a b g
+    f2. g4 a2 b
+    c f, g1
+    \clef treble << { e'2 } \\ { c } >> \clef bass c,1 c2 %90
+    c1 c
+    f f~
+    f2 f g1
+    c, d
+    b! f' %95
+    f b,~
+    b2 b b1
+    f' c2 c
+    b1 c
+    d d %100
+    b2 b f'1
+    b,\breve
+    \clef "treble_8" d'2 d c1
+    b r2 a
+    b c d1 %105
+    c \clef bass c,~
+    c g'
+    d c
+    \clef "treble_8" a'2 \clef bass g e d
+    g\breve %110
+    c,
+    \clef "treble_8" c'\breve
+    d1 \clef bass f,~
+    f g
+    f2 f1 d2 %115
+    es1 d~
+    d2 c4 b c1
+    b\breve
+    \clef treble << { f''2 e! f1 } \\ { d2 c d1 } >>
+    \clef bass f,1 f2 e %120
+    f1 c
+    r2 f1 e2
+    d1 c
+    g' \clef "treble_8" f2 \clef bass f~
+    f e d1 %125
+    c\breve
+    b2 b1 a2
+    b1 b
+    f'\breve\fermata
+    c %130
+    d1 e
+    f\breve
+    \clef "treble_8" b1 c
+    \clef bass d,\breve
+    c1 b %135
+    a d
+    g2. f!4 e d e2
+    d\breve
+    c
+    c %140
+    b1. b2
+    c\breve
+    \clef "treble_8" f1. f2
+    c'1 \clef bass b,
+    b1. f'2 %145
+    f1 g~
+    g es
+    f\breve
+    b,1 f'
+    f1. c2 %150
+    c1 d~
+    d b
+    c\breve
+    f\fermata \bar "|." %154 finis
+  }
+}
+
+IIBassFigures = \figuremode {
+  r\breve
+  <4>1 <_->
+  <4> <3>
+  <8>2 <7> <6> <\t>
+  <4>1 <3> %5
+  <4> <_->
+  <4> <3>2 <6>
+  <6 5> <\t 4> <5 \t> <\t 3>
+  r\breve
+  r %10
+  r
+  <6>1 q
+  r\breve
+  r1 <6 4>2 <5 _+>
+  r\breve %15
+  <5>2 <6> <5!>1
+  r\breve
+  r
+  <_+>
+  r1. <7 _!>2 %20
+  <6> <5>1.
+  <7>1 <6!>
+  r\breve
+  r1 <4>2 <_->
+  r\breve %25
+  r
+  r
+  r
+  <_!>
+  r %30
+  r1. <6>2
+  <7> <6!> <4> <3>
+  r1 <6>2 <5>
+  r <6> <5> <6>
+  <7> <6> <6 4> <5 3> %35
+  <4> <3>1.
+  r1 <5>2 <6>
+  <7>1 <6>
+  <4> <3>
+  r\breve %40
+  r
+  <6>
+  q
+  r
+  r1 <_-> %45
+  <5> <6>
+  r\breve
+  r1 <6!>
+  r\breve
+  <6>2 <5> <8 6> <7 5> %50
+  <4> <3> <5> <6>
+  <4> <3>1 <6>2
+  r1 <5>2 <6>
+  r\breve
+  r1 <9>2 <8> %55
+  <4>1 <_!>
+  r\breve
+  r
+  r
+  <4>1 <3> %60
+  r1. <\t>2
+  <7>1 <6>
+  <4> <3>
+  r\breve
+  r %65
+  r
+  <5 2>1 <6>
+  r1. <\t>2
+  <7>1 <6>
+  r\breve %70
+  r
+  <6>
+  r
+  <6>
+  <_+>1 <_!> %75
+  r\breve
+  r
+  <5->1 <6>2 <_->
+  r1 <8>2 <7>
+  <_->\breve %80
+  <_+>
+  <_!>
+  r1 q
+  r\breve
+  r %85
+  r1. <6>2
+  r1. q2
+  r1 <5>2 <6>4 <5>
+  <3 2>4 <\t 1>2. <4>2 <_!>
+  r\breve %90
+  r
+  r
+  <6>1 <_!>
+  r\breve
+  r %95
+  r
+  r
+  r
+  r
+  r %100
+  r
+  r
+  <5>1 <6>2 <5>
+  <6> <5>1.
+  <6>2 <5>4 <6> q2 <5> %105
+  <6 4> <5 3>4 <4 2> <5 3>1
+  r\breve
+  r1 <6>2 <5>
+  r1 <6>
+  <3>2 <4>1 <_!>2 %110
+  r\breve
+  <1>
+  q1 <5>
+  <\t>2 <3> q1
+  r1. <6>2 %115
+  r1 q
+  r <7 _->2 <6 \t>
+  r\breve
+  r
+  r1. <6>2 %120
+  r1 <4>2 <3>
+  <4> <3>1 <6>2
+  <7> <6> <6 4> <5 3>
+  r1 <4>2 <3>
+  <6> q <5 4> <6 3> %125
+  <4>1 <3>
+  r1. <6>2
+  r\breve
+  r
+  r %130
+  <6>1 <\t>
+  r\breve
+  <6>
+  r
+  r1 <6> %135
+  <_+> q
+  r <6!>
+  <5> <6!>
+  r\breve
+  r %140
+  r
+  r
+  r
+  r
+  r %145
+  r
+  r1 <6>2 <5>
+  <6 4> <5 3>4 <4 2> <5 3>1
+  r\breve
+  r %150
+  r
+  r1 <6>2 <5>
+  <4>1 <3>
+  r\breve %154 finis
+}
