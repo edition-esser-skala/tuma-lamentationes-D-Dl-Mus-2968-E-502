@@ -514,3 +514,316 @@ IIAltoLyrics = \lyricmode {
   tu --
   um. %154 finis
 }
+
+IIIAlto = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 2/1 \autoBeamOff \tempoIII
+      \set Staff.timeSignatureFraction = 2/2
+    R\breve
+    r1 a'~
+    a g
+    f\breve
+    d\breve %5
+    b1 c
+    d f~
+    f e!
+    f\breve
+    c %10
+    e1 f
+    f2 d1 e2
+    f1 e
+    f d~
+    d2 e e1 %15
+    g1. f2
+    f e f1~
+    f2 e e g~
+    g f4 e d2 e
+    f1 r %20
+    e e
+    d e
+    f f2 f
+    g1 f2 d~
+    d c d e %25
+    f1 e2. f4
+    d1 e
+    e f
+    e g2 a~
+    a g g g~ %30
+    g g g1
+    a2 a1 g2
+    a1 g2 f~
+    f e g1~
+    g2 f f1 %35
+    a2. g4 f e f2~
+    f e4 d e1
+    f\breve\fermata
+    R
+    r1 a~ %40
+    a g
+    f1. e2
+    f\breve
+    c~
+    c1 d~ %45
+    d e
+    d1. e2
+    f\breve
+    a1. a2
+    a1 a %50
+    g f
+    g\breve
+    g1 b~
+    b2 a4 g a1~
+    a\breve %55
+    R\breve*2
+    d,1 f~
+    f e
+    d\breve %60
+    c1 e2 e~
+    e e e e
+    f1 f
+    e g
+    c, d %65
+    e\breve
+    a1 a
+    a1. a2
+    g1 g
+    g1. a2 %70
+    b2. a4 g2 f~
+    f1 e
+    f\breve
+    e
+    f %75
+    f1. f2
+    f\breve~
+    f1 r
+    r b,
+    c2( d) c f~ %80
+    f e4 d e1
+    f r
+    b, c
+    d b
+    c\breve %85
+    f1. e2
+    e\breve
+    f1 f
+    g a2( g)
+    f1 r %90
+    f\breve
+    f
+    c
+    c
+    c %95
+    d
+    b1. b2
+    c\breve
+    d
+    d %100
+    c
+    d1 e!
+    f\breve
+    r1 f
+    f1. f2 %105
+    e1 f~
+    f2 e d1
+    e f~
+    f e
+    f\breve %110
+    d
+    r2 f1 f2
+    f1 f~
+    f e2 c~
+    c b4 a b1 %115
+    c\breve~
+    c\fermata
+    c
+    d1 e
+    f\breve %120
+    R
+    c
+    d1 e
+    f r2 f
+    g1 g %125
+    c,\breve~
+    c
+    c1 c~
+    c b
+    c\breve %130
+    R
+    c
+    h1 c
+    a2.( b4 c2) d
+    h c1( h2) %135
+    c1 r2 c
+    d1 e
+    c f
+    d2 c d1
+    e\breve %140
+    f~
+    f
+    r1 f~
+    f e
+    d\breve %145
+    c2. b4 a2 g
+    f1 r
+    c' f~
+    f2 e4 d e1
+    f\breve %150
+    f~
+    f
+    f\fermata \bar "|." %153 finis
+  }
+}
+
+IIIAltoLyrics = \lyricmode {
+  \xE Iod. __ %2
+  _
+  _
+  _ %5
+  _ _
+  _ _
+  _
+  _
+  \x Ma -- %10
+  num su --
+  am mi -- sit
+  ho -- stis
+  ad o --
+  mni -- a %15
+  de -- si --
+  de -- ra -- bi --
+  li -- a e --
+  _ _ _ _
+  ius. %20
+  Qui -- a
+  vi -- dit
+  gen -- tes in --
+  gres -- sas san --
+  ctu -- a -- ri -- %25
+  um su -- _
+  _ um,
+  de qui --
+  bus prae -- ce --
+  pe -- ras, ne __ %30
+  in -- tra --
+  rent, ne in --
+  tra -- rent in __
+  ec -- cle --
+  si -- am %35
+  tu -- _ _ _ _
+  _ _ _
+  am.
+
+  \xE Caph. __ %40
+  _
+  _ _
+  _
+  _
+  _ %45
+  _
+  _ _
+  _
+  \x O -- mnis
+  po -- pu -- %50
+  lus e --
+  ius
+  ge -- _
+  _ _ mens __
+
+  et quae -- %58
+  rens
+  pa -- %60
+  nem. De -- de --
+  runt pre -- ti --
+  o -- sa
+  quae -- que
+  pro ci -- %65
+  bo
+  ad re --
+  fo -- cil --
+  lan -- dam
+  a -- _ %70
+  _ _ _ _
+  ni --
+  mam.
+  Vi --
+  de, %75
+  Do -- mi --
+  ne, __
+
+  et
+  con -- si -- _ %80
+  _ _ de --
+  ra,
+  et con --
+  si -- de --
+  ra, %85
+  quo -- ni --
+  am
+  fa -- cta
+  sum vi --
+  lis, %90
+  vi --
+  lis!
+  O
+  vos
+  o -- %95
+  mnes,
+  qui trans --
+  i --
+  tis
+  per %100
+  vi --
+  _ _
+  am,
+  at --
+  ten -- di -- %105
+  te et __
+  vi -- de --
+  te, si __
+  est
+  do -- %110
+  lor
+  si -- cut
+  do -- lor __
+  _ me --
+  _ _ _ %115
+  us. __
+
+  Ie --
+  ru -- sa --
+  lem, %120
+
+  Ie --
+  ru -- sa --
+  lem, Ie --
+  ru -- sa -- %125
+  lem, __
+
+  con -- ver --
+  te --
+  re %130
+
+  ad
+  Do -- mi --
+  num __ De --
+  um tu -- %135
+  um, ad
+  Do -- mi --
+  num De --
+  um tu -- _
+  _ %140
+  um, __
+
+  De --
+  um
+  tu -- %145
+  um, __ _ _ _
+  _
+  tu -- _
+  _ _ _
+  um, %150
+  tu --
+
+  um. %153 finis
+}

@@ -531,3 +531,326 @@ IIBassFigures = \figuremode {
   <4>1 <3>
   r\breve %154 finis
 }
+
+IIIOrgano = {
+  \relative c {
+    \clef bass
+    \key f \major \time 2/1 \tempoIII
+      \set Staff.timeSignatureFraction = 2/2
+    a'\breve
+    g1 f~
+    f g
+    d f
+    g d %5
+    es\breve
+    b1 b'
+    a g
+    f\breve
+    f %10
+    c1 f
+    d2 d1 c2
+    d1 a'
+    d, g~
+    g2 c, c1 %15
+    g'1. a2
+    b g f1~
+    f2 c c1
+    g'\breve
+    f1 r %20
+    c c
+    g' c,
+    f d2 d
+    g1 d
+    \clef "treble_8" f'2 e d c %25
+    d1 c2. a4
+    b1 a
+    \clef bass a d,
+    a' g2 f~
+    f c c c'~ %30
+    c b c1
+    f, \clef "treble_8" f'2 e
+    f1 c2 \clef bass f,~
+    f a g1~
+    g2 d d2. e4 %35
+    f\breve
+    c
+    f\fermata
+    a
+    g1 f~ %40
+    f g
+    d \clef "treble_8" b'2 c
+    d2. e4 f1
+    c \clef bass c,
+    f d %45
+    g c,
+    g'\breve
+    f
+    f1. f2
+    f1 f %50
+    c d
+    c\breve
+    g'
+    f~
+    f %55
+    d1 f~
+    f e
+    d\breve
+    c
+    \clef treble << { f'\breve e1 } \\ { d\breve c1 } >> %60
+    \clef bass c,2 c~
+    c c c c
+    f1 f
+    a g
+    a b %65
+    a\breve
+    a1 d,
+    f1. f2
+    g1 c,~
+    c c' %70
+    b1. a2
+    g\breve
+    f
+    a
+    d, %75
+    f1. b,2
+    b1 b'~
+    b a
+    g g
+    f\breve %80
+    \clef "treble_8" c'
+    d1 \clef bass b~
+    b a
+    g g
+    f\breve %85
+    f1. c2
+    c\breve
+    f1 d
+    c f~
+    f2 e d1 %90
+    b\breve
+    f'
+    f
+    c
+    f %95
+    b,
+    es1. d2
+    c\breve
+    b
+    \clef "treble_8" b'1 \clef bass b~ %100
+    b a
+    g\breve
+    f~
+    f
+    \clef treble << {
+      a'1. a2 %105
+      g1 a~
+      a2 g f1
+    } \\ {
+      f1. f2 %105
+      e1 f~
+      f2 e d1
+    } >>
+    \clef bass c,\breve
+    c
+    f %110
+    b,
+    b1. b2
+    b1 f'~
+    f c
+    d\breve %115
+    c
+    f\fermata
+    \clef "treble_8" a
+    g1 g
+    \clef bass a\breve %120
+    g1 g
+    f\breve
+    \clef "treble_8" g1 g
+    \clef bass a\breve
+    g1 g %125
+    f\breve~
+    f
+    f
+    e1 d
+    c\breve %130
+    \clef "treble_8" g'
+    \clef bass f
+    g1 c,
+    f\breve
+    g2 a g1 %135
+    c,\breve
+    \clef "treble_8" g'1 c
+    f,\breve
+    g2 a g1
+    \clef bass c,\breve %140
+    f1 f
+    b,\breve
+    f'
+    c
+    \clef "treble_8" g' %145
+    \clef bass f~
+    f~
+    f
+    c
+    \clef "treble_8" f1 \clef bass f %150
+    b, f'
+    b,\breve
+    f'\fermata \bar "|." %153 finis
+  }
+}
+
+IIIBassFigures = \figuremode {
+  <1>\breve
+  <5>1 <6>
+  <5>\breve
+  r
+  r %5
+  <5 3>1 <6 \t>2 <\t 4>
+  r1 <5>2 <6>
+  q1 <6!>
+  r\breve
+  r %10
+  r
+  r1. <6>2
+  r\breve
+  r1 <_!>
+  r\breve %15
+  <_->1. <6>2
+  r q1.
+  r\breve
+  <5>1. <6>2
+  r\breve %20
+  r
+  <_!>
+  r
+  <_->
+  <6>2 <6 4>1 <6>2 %25
+  <5> <6> <7> <6>4 q
+  <7>2 <6> <_+>1
+  q\breve
+  <_!>
+  r %30
+  r2 <6>1.
+  r <6>2
+  r\breve
+  r
+  r %35
+  r
+  <4>1 <3>
+  r\breve
+  <1>
+  <5>1 <6> %40
+  <5>\breve
+  <6>2 <5> q <3>
+  r\breve
+  <4>1 <3>
+  r\breve %45
+  r
+  <5 4>1 <\t 3>2 <6 \t>
+  r\breve
+  r
+  r %50
+  r
+  r
+  <5>1. <6>2
+  <6 4> <5 3>1.
+  r\breve %55
+  <6>1 <3>
+  r q
+  <5>1. <6>2
+  <6 4>1 <5 3>
+  r\breve %60
+  r
+  r2 <5> <6>2 <5>
+  r\breve
+  r1 <5>2 <6>
+  <5> <6> <7> <6> %65
+  r\breve
+  r
+  <5>1 <6>2 <5>
+  <4> <3>1.
+  r1 <5>2 <6> %70
+  <8>1 <5 2>2 <\t \t>
+  <7>1 <6>
+  r\breve
+  <_+>
+  r %75
+  <5!>
+  r
+  r1 <6>
+  <7> <6>
+  <5 4>2 <6 \t> <5 3>1 %80
+  <4> <3>
+  <3> <5>
+  r2 <6> <7> <6>
+  <7>1 <6>
+  r\breve %85
+  r
+  r
+  r1 <6>
+  r <5 3>2 <4 2>
+  <6>1. \once \bassFigureExtendersOn q2 %90
+  r\breve
+  r
+  r
+  <4>1 <2>
+  r\breve %95
+  r
+  <5 3>1. <\t \t>2
+  <7 _->1 <6 \t>
+  <6> <5>
+  r\breve %100
+  <5 2>1 <\t \t>
+  <5> <6!>
+  r\breve
+  r
+  r %105
+  r
+  r
+  <5 3>1 <6 4>
+  <\t \t> <5 3>
+  r\breve %110
+  <6>1 <5>
+  r\breve
+  r
+  r
+  <7 4>2 <6 3>4 <5 \t> <6>1 %115
+  <4> <3>
+  r\breve
+  <6>
+  <5>1 <6>
+  q\breve %120
+  <1>1 q
+  r\breve
+  <5>1 <6>
+  q\breve
+  r %125
+  r
+  r
+  r
+  <6>1 q
+  r\breve %130
+  <4>1 <3>
+  r\breve
+  <_!>
+  <5>1. <6>2
+  <_!> <3> <4> <_!> %135
+  r\breve
+  <_->
+  <5>1. <6>2
+  <_!> <3> <4> <_!>
+  r\breve %140
+  r
+  r
+  r
+  <4>1 <3>
+  <4> <3> %145
+  r\breve
+  r
+  r
+  <4>1 <3>
+  r\breve %150
+  r
+  r
+  r %153 finis
+}

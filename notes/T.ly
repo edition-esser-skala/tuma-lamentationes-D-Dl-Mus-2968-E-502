@@ -513,3 +513,307 @@ IITenoreLyrics = \lyricmode {
   _
   um. %154 finis
 }
+
+IIITenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key f \major \time 2/1 \autoBeamOff \tempoIII
+      \set Staff.timeSignatureFraction = 2/2
+    R\breve
+    d
+    c1 b
+    d c
+    b a %5
+    g1. a2
+    b1 d
+    c b
+    c\breve
+    a %10
+    c1 c
+    d2 f1 e2
+    d1 c
+    d h~
+    h2 c c1 %15
+    d1. c2
+    d b! c1~
+    c2 c c1
+    d( b)
+    c r %20
+    c c
+    h c
+    c d2 d
+    d1 d2 f~
+    f e d c %25
+    d1 c2. a4
+    b1 a
+    cis d
+    c d2 f~
+    f e e e~ %30
+    e d e1
+    f2 f1 e2
+    f1 c2 c~
+    c c d1~
+    d2 d d1 %35
+    c\breve~
+    c
+    c\fermata
+    R
+    d %40
+    c1 b~
+    b2 a b c
+    d2. e4 f1~
+    f2 e4 d e1
+    a,\breve %45
+    b1 c~
+    c2 b4 a b1
+    c\breve
+    c1. c2
+    c1 c %50
+    c a
+    c\breve
+    b1 d~
+    d2 c c1
+    a( c) %55
+    b a~
+    a g
+    a1. b2
+    c\breve
+    R %60
+    r1 c2 c~
+    c c c c
+    c1 c
+    c d2 e~
+    e f2.( e4 d2) %65
+    c\breve
+    c1 d
+    c2 c d c~
+    c b c1~
+    c r2 a %70
+    d c4 b c1
+    b\breve
+    c
+    cis
+    d %75
+    c!1. d2
+    d\breve
+    d1 c2 f~
+    f e4( d) e1
+    f\breve %80
+    c
+    d~
+    d1 c
+    b^\critnote b
+    a\breve %85
+    c1. c2
+    c\breve
+    c1^\critnote d
+    e c
+    d\breve~ %90
+    d
+    c
+    a
+    g
+    a %95
+    b
+    g1 g2 b~
+    b a4 g a1
+    b\breve~
+    b %100
+    f
+    b
+    c~
+    c
+    R\breve*3 %107
+    c\breve
+    c
+    c %110
+    b
+    d1. d2
+    d1 c~
+    c c
+    a f %115
+    g\breve
+    f\fermata
+    a
+    g1 g
+    f\breve %120
+    R
+    a
+    g1 g
+    f f
+    b g %125
+    a\breve~
+    a
+    a
+    g1 f
+    g\breve~ %130
+    g
+    R\breve*4 %135
+    g\breve
+    g1 c
+    f,\breve
+    g2 a g1~
+    g c %140
+    a1. f2
+    f\breve
+    r1 f
+    g\breve~
+    g %145
+    a
+    c1. b2
+    a g f1
+    g\breve
+    f %150
+    f1 a
+    b\breve
+    a\fermata \bar "|." %153 finis
+  }
+}
+
+IIITenoreLyrics = \lyricmode {
+  \xE Iod. __ %2
+  _ _
+  _ _
+  _ _ %5
+  _ _
+  _ _
+  _ _
+  _
+  \x Ma -- %10
+  num su --
+  am mi -- sit
+  ho -- stis
+  ad o --
+  mni -- a %15
+  de -- si --
+  de -- ra -- bi --
+  li -- a
+  e --
+  ius. %20
+  Qui -- a
+  vi -- dit
+  gen -- tes in --
+  gres -- sas san --
+  ctu -- a -- ri -- %25
+  um su -- _
+  _ um,
+  de qui --
+  bus prae -- ce --
+  pe -- ras, ne __ %30
+  in -- tra --
+  rent, ne in --
+  tra -- rent in __
+  ec -- cle --
+  si -- am %35
+  tu --
+
+  am.
+
+  \xE Caph. __ %40
+  _ _
+  _ _ _
+  _ _ _
+  _ _ _
+  _ %45
+  _ _
+  _ _ _
+  _
+  \x O -- mnis
+  po -- pu -- %50
+  lus e --
+  ius
+  ge -- _
+  mens et
+  quae -- %55
+  rens pa --
+  _
+  _ _
+  nem.
+  %60
+  De -- de --
+  runt pre -- ti --
+  o -- sa
+  quae -- que pro __
+  ci -- %65
+  bo
+  ad re --
+  fo -- cil -- lan -- _
+  _ dam __
+  a -- %70
+  _ _ _ _
+  ni --
+  mam.
+  Vi --
+  de, %75
+  Do -- mi --
+  ne,
+  et con -- si --
+  de -- ra, __
+  _ %80
+  _
+  et __
+  con --
+  si -- de --
+  ra, %85
+  quo -- ni --
+  am
+  fa -- cta
+  sum vi --
+  _ %90
+
+  lis!
+  O
+  vos
+  o -- %95
+  mnes,
+  qui trans -- i --
+  _ _ _
+  tis __
+  %100
+  per
+  vi --
+  am, __
+
+  si %108
+  est
+  do -- %110
+  lor
+  si -- cut
+  do -- lor __
+  me --
+  _ _ %115
+  _
+  us.
+  Ie --
+  ru -- sa --
+  lem, %120
+
+  Ie --
+  ru -- sa --
+  lem, Ie --
+  ru -- sa -- %125
+  lem, __
+
+  con --
+  ver -- te --
+  re __ %130
+
+  ad %136
+  Do -- mi --
+  num
+  De -- um tu --
+  _ %140
+  _ _
+  um,
+  De --
+  _
+  %145
+  um
+  tu -- _
+  _ _ _
+  _
+  um, %150
+  tu -- _
+  _
+  um. %153 finis
+}
