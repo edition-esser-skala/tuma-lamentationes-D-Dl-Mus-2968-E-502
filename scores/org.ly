@@ -6,26 +6,37 @@
 
 \book {
   \bookpart {
-    \section "1" "First"
-    \addTocEntry
+    \section "1" "Lectio prima"
+    \addTocLabel "prima"
     \paper { indent = 2\cm }
     \score {
       <<
         \new Staff {
           \set Staff.instrumentName = "Organo"
-          \xxxOrgano
+          \IOrgano
         }
-        \new FiguredBass { \xxxBassFigures }
+        \new FiguredBass { \IBassFigures }
       >>
     }
   }
   \bookpart {
-    \section "2" "Second"
-    \addTocEntry
+    \section "2" "Lectio secunda"
+    \addTocLabel "secunda"
+    \paper { page-count = #2 }
     \score {
       <<
-        \new Staff { \yyyOrgano }
-        \new FiguredBass { \yyyBassFigures }
+        \new Staff { \IIOrgano }
+        \new FiguredBass { \IIBassFigures }
+      >>
+    }
+  }
+  \bookpart {
+    \section "3" "Lectio tertia"
+    \addTocLabel "tertia"
+    \score {
+      <<
+        \new Staff { \IIIOrgano }
+        \new FiguredBass { \IIIBassFigures }
       >>
     }
   }

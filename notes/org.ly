@@ -213,6 +213,7 @@ IIOrgano = {
   \relative c {
     \clef bass
     \key f \major \time 2/1 \tempoII
+      \set Staff.timeSignatureFraction = 2/2
     f\breve
     c
     g'
